@@ -1,0 +1,71 @@
+  host:
+    - bokeh <0.14
+    - decorator <5
+    - ipykernel <5
+    - matplotlib <3
+    - numpy <2
+    - pandas >0.22,<0.24
+    - parsimonious <0.9
+    - pip
+    - pyspark >=2.4,<2.4.2
+    - python
+    - requests >=2.21.0,<2.21.1
+    - seaborn <0.9
+  run:
+    - bokeh <0.14
+    - decorator <5
+    - ipykernel <5
+    - matplotlib <3
+    - numpy <2
+    - pandas >0.22,<0.24
+    - parsimonious <0.9
+    - pyspark >=2.4,<2.4.2
+    - python
+    - requests >=2.21.0,<2.21.1
+    - seaborn <0.9
+
+test:
+  imports:
+    - benchmark
+    - hail
+    - hail.backend
+    - hail.docs
+    - hail.experimental
+    - hail.expr
+    - hail.expr.aggregators
+    - hail.expr.expressions
+    - hail.fs
+    - hail.genetics
+    - hail.ir
+    - hail.linalg
+    - hail.linalg.utils
+    - hail.methods
+    - hail.plot
+    - hail.stats
+    - hail.typecheck
+    - hail.utils
+    - test
+    - test.hail
+    - test.hail.experimental
+    - test.hail.expr
+    - test.hail.genetics
+    - test.hail.linalg
+    - test.hail.matrixtable
+    - test.hail.methods
+    - test.hail.stats
+    - test.hail.table
+    - test.hail.typecheck
+    - test.hail.utils
+
+about:
+  home: https://hail.is
+  license: MIT
+  license_family: MIT
+  license_file:
+  summary: Scalable library for exploring and analyzing genomic data.
+  doc_url:
+  dev_url:
+
+extra:
+  recipe-maintainers:
+    - your-github-id-here
